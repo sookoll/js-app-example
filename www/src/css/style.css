@@ -1,0 +1,19 @@
+html, body, #map {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.coords {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background: #fff;
+    z-index: 999;
+    font-size: 11px;
+}
+.layer-switcher {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+}
